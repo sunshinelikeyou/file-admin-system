@@ -2,7 +2,7 @@
  * @Author: theman
  * @Date: 2019-08-15 15:59:38
  * @LastEditors: theman
- * @LastEditTime: 2019-08-15 22:08:52
+ * @LastEditTime: 2019-08-16 10:12:41
  * @Description: 
  */
 import Vue from 'vue'
@@ -23,6 +23,5 @@ export default new Router({
       name: 'Home',
       component: Home
     }
-  ],
-  mode:'history'
+  ]
 })

@@ -1,3 +1,10 @@
+/*
+ * @Author: theman
+ * @Date: 2019-08-15 15:59:38
+ * @LastEditors: theman
+ * @LastEditTime: 2019-08-16 10:16:07
+ * @Description: 
+ */
 'use strict'
 const path = require('path')
 const config = require('../config')
@@ -47,7 +54,8 @@ exports.cssLoaders = function (options) {
     if (options.extract) {
       return ExtractTextPlugin.extract({
         use: loaders,
-        fallback: 'vue-style-loader'
+        fallback: 'vue-style-loader',
+        publicPath:'../../'
       })
     } else {
       return ['vue-style-loader'].concat(loaders)

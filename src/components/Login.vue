@@ -2,7 +2,7 @@
  * @Author: theman
  * @Date: 2019-08-15 15:59:38
  * @LastEditors: theman
- * @LastEditTime: 2019-08-15 22:44:48
+ * @LastEditTime: 2019-08-16 10:24:42
  * @Description: 
  -->
 <template>
@@ -85,14 +85,14 @@ export default {
   }
   .el-input__inner{
     position: relative;
-    padding: 0 20px;
+    padding: 0 20px!important;
   }
   .icon{
     position: absolute;
     top: 0;
     left: 5px;
     height: 100%;
-    line-height: 40px;
+    line-height: 40px!important;
   }
   .login {
   display: flex;
